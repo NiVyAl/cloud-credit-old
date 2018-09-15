@@ -141,7 +141,7 @@ h2::after {
 
 .container_fun {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 5%;
 }
