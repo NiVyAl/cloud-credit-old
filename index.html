@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Cloud Credit</title>
+        <meta charset="utf-8">
+        <link href="index.css" rel="stylesheet">
+    </header>
+    <body>
+        <div class="background" id="background"></div>
+        <div class="header">
+            <div class="message" id="message">
+                <button type="button" class="close" onclick="document.getElementById('message').style.display = 'none';
+                                                              document.getElementById('background').style.display = 'none';">X
+                </button>
+                <p class="h3">Ваша заявка принята!</p>
+                <p class="text">Наш менеджер свяжется с Вами<br> в ближайшее время</p>
+            </div>
+            <a href="#" class="logo">
+                <img src="image/logo.png" width="138" height="52">
+            </a>
+            <a href="skype:88000000000?add"class="phone_number">
+                <img src="image/phone.png" width="35" height="35">
+                <p>8 800 000 00 00</p>
+            </a>
+            
+            <div class="container">
+                <p>Тестовое задание на специальность<br> «верстальщик»</p>
+                <button type="button" class="button" onclick="document.getElementById('message').style.display = 'block';
+                    document.getElementById('background').style.display = 'block';">Оставить заявку
+                </button>
+            </div>
+        </div>
+        
+      <div class="main">
+        <div class="features">
+            <div class="container_features">
+                <div class="wrapper">
+                    <p class="h3">Работа в онлайн «из коробки»</p>
+                    <p>Система предназначена для ведения бизнеса в онлайн, Вам действительно не понадобятся офисы для работы с заёмщиками</p>
+                    <p class="check">Кастомизируем личный кабинет заёмщика</p>
+                    <p class="check">Открытый API, позволяющий закрыть практически любой бизнес кейс</p>
+                </div>
+                <div class="wrapper">
+                    <img src="image/feature_image1.png" width="250" height="195">
+                </div>
+            </div>
+             <div class="container_features">
+                <div class="wrapper">
+                    <p class="h3">Идентификация заемщиков по требованиям ЦБ</p>
+                    <p class="check">Упрощенная банковская идентификация</p>
+                    <p class="check">Идентификация через налаженный механизм выпуска облачных ЭП</p>
+                </div>
+                <div class="wrapper">
+                    <img src="image/feature_image2.png" width="250" height="195">
+                </div>
+            </div>
+        </div>
+ 
+        <div class="fun">
+            <h2>Функционал системы</h2>
+            <div class="container_fun">
+                <div class="blue_cicle">
+                    <img src="image/museum.png" width="71" height="71">
+                    <p>Работа с банковскими картами</p>
+                </div>
+                <div class="blue_cicle">
+                    <img src="image/functional-2.png" width="71" height="71">
+                    <p>Гибкая система управления кредитными продуктами</p>
+                </div>
+                <div class="blue_cicle">
+                    <img src="image/functional-3.png" width="71" height="71">
+                    <p>Кредитный конвейер с настраиваемыми процедурами скорринга</p>
+                </div>
+                <div class="blue_cicle">
+                    <img src="image/functional-4.png" width="71" height="71">
+                    <p>Проверка заёмщиков по базам кредитных бюро и ФССП</p>
+                </div>
+                <div class="blue_cicle">
+                    <img src="image/functional-5.png" width="71" height="71">
+                    <p>Совместимость с системами бухгалтерского учёта 1С</p>
+                </div>
+                <div class="blue_cicle">
+                    <img src="image/functional-6.png" width="71" height="71">
+                    <p>Генерация договоров на основе шаблонов</p>
+                </div>
+            </div>
+        </div>
+      </div>
+        <div class="connect request" id="request">
+            <h2>Заявка на подключение</h2>
+            <form>
+                <div class="container_help">
+                    <button type="button" class="button_text" onclick="document.getElementById('request').style.display = 'none';
+                    document.getElementById('help').style.display = 'flex';"><p class="border_bottom">Нужна помощь с регистрацией</p>
+                    </button>
+                    <button type="button" class="button_text"><p>Заявка</p>
+                    </button>  
+                </div>
+                <div class="container_input">
+                    <input type="text" placeholder="Организация">
+                    <input type="text" placeholder="Контактное лицо">
+                    <input type="email" placeholder="Контактный e-mail">
+                    <input type="tel" placeholder="Контактный телефон">
+                    <input type="submit" value="Отправить" class="button">
+                </div>
+            </form>
+        </div>
+        <div class="connect help" id="help">
+            <h2>Как это работает</h2>
+
+                <div class="container_help">
+                    <button type="button" class="button_text"><p>Нужна помощь с регистрацией</p>
+                    </button>
+                    <button type="button" class="button_text"  onclick="document.getElementById('help').style.display = 'none';
+                    document.getElementById('request').style.display = 'flex';"><p class="border_bottom">Заявка</p>
+                    </button>   
+                </div>
+                <div class="container_input">
+                    <input type="text" placeholder="Введите данные">
+                    <input type="submit" value="получить доступ" class="button_acces button">
+                    <input type="submit" value="Отправить" class="button">
+                </div>
+
+        </div>
+        
+        <div class="footer">
+            <div class="container_footer">
+                <p>© 2016 Credit Cloud — облачная платформа для кредитных организаций
+                </p>
+            </div>
+            <div class="container_footer">
+                <a href="#">Тарифы</a>
+                <a href="#">О компании</a>
+            </div>
+            <div class="container_footer">
+                <p>Служба поддержки работает с 9:00 до 18:00 в рабочие дни</p>
+                <b>8 800 3333 333</b>
+                <a href="#">info@cloutcredit.ru</a>
+            </div>
+            <div class="container_footer">
+                <p>Подпишитесь на рассылку новостей нашего проект</p>
+                <div class="subscribe">
+                    <input type="email" placeholder="Ваш e-mail">
+                    <input type="image" src="image/subscribe.png" value="">
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+  /*  background-origin: border-box; */
+}
+
+.header {
+    background: url("image/header_img.jpg") no-repeat center;
+    background-color: #3875f7;
+    background-size: cover;
+    color: white;
+/*    box-sizing: border-box;  width - задает ширину всего блока, после включения картинка обрезаеться*/
+    min-height: 623px;
+    padding: 10%;
+    padding-top: 2%;
+
+}
+
+.phone_number {
+    font-size: 18px;
+    float: right;
+   /* margin-right: 3%; */
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.phone_number p {
+    margin-left: 10px;
+}
+
+.logo {
+    float: left;
+   /* margin-left: 3%; */
+}
+
+.container p{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 24%;
+}
+
+.container .button {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button {
+    border: 1px solid #cc901d;
+    border-radius: 15px;
+    background-color: #e9a625;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ce9424;
+    border: 1px solid #a87512;
+}
+
+.container_features {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.container_features:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper:nth-child(2) {
+    align-items: center;
+}
+.text2 {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.features {
+   margin-bottom: 8%;
+}
+
+.wrapper .h3{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 11px;
+    /*width: 81px; */
+    text-transform: uppercase;
+}
+
+h2::after {
+    content: "";
+    width: 81px;
+    height: 4px;
+    background: #3875f7;
+    display: block;
+    position: relative;
+    top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.fun {
+    text-align: center;
+}
+
+.check {
+    background: url("image/check.png") no-repeat 2%;
+    padding-left: 10%;
+}
+
+.container_fun {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.blue_cicle p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.blue_cicle {
+    margin-bottom: 8%;
+    width: 260px;
+}
+
+.connect {
+    background-color: #454d5e;
+    text-align: center;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect h2 {
+    color: white;
+}
+
+.container_help {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 36px;
+    width: 470px;
+}
+
+.button_text{
+    color: white;
+    border: none;
+    padding: 0px;
+    outline: 0;
+    background-color: #454d5e;
+    cursor: pointer;
+    /*height: 22px; */
+    
+}
+
+.button_text p {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.border_bottom {
+    border-bottom: 1px dashed white;
+}
+
+.help {
+    display: none;
+}
+
+.container_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_input input {
+    padding: 10px;
+    width: 465px;
+    
+    line-height: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container_input input:last-child {
+    width: 192px;
+    border-radius: 20px;
+}
+
+.help input[type="text"] {
+    width: 606px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"]  {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.button_acces {
+    width: 336px;
+    font-size: 18px !important;
+    line-height: 24px;
+    margin-bottom: 74px !important;
+    margin-top: 30px;
+    border-radius: 20px !important;
+}
+
+.subscribe input[type="email"] {
+    padding-left: 24px !important;
+    box-sizing: border-box;;
+}
+
+.footer {
+    display: flex;
+    padding: 3%;
+    font-size: 14px;
+    line-height: 18px;
+    color: #454d5e;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 5px;
+}
+
+.subscribe {
+    display: flex;
+    border: 1px solid #a0acc6;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.subscribe input[type="email"] {
+    width: 186px;
+    border-radius: 5px;
+}
+
+.subscribe input[type="image"] {
+    width: 44px;
+}
+
+.container_footer:nth-child(2) a{
+  margin-top: 20px;
+}
+
+input {
+    outline: 0;
+    border: 0px
+}
+
+b{
+    font-size: 30px;
+    color: #010101;
+    margin-bottom: 18px;
+    line-height: 25pt;
+}
+
+.container_footer:nth-child(2) {
+    width: 20%;
+}
+
+.container_footer:nth-child(3) {
+    width: 30%;
+}
+
+.container_footer:last-child {
+    margin-right: 0;
+}
+
+.main {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-origin: content-box;
+}
+
+.message {
+    width: 440px;
+    height: 207px;
+    background-color: white;
+    /* content: "Ваша заявка принята!"; */
+    color: black;
+    border-radius: 5px;
+    position: fixed;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 3;
+    display: none;
+}
+
+.message .text {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 40px;
+}
+
+.message .h3 {
+    margin-top: 44px;
+    margin-bottom: 0;
+}
+
+.close {
+    border-radius: 20px;
+    border: 1px solid #9aa3b5;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 7px;
+    right: 14px;
+    color: #9aa3b5;
+    background-color: white;
+    outline: 0;
+    cursor: pointer;
+}
+
+.background {
+    background-color: rgba(50, 55, 67, 0.8);
+    content: "";
+    width: 100%;
+    height: 100%;  
+    position: fixed;
+    z-index: 2;
+    display: none;
+}
