@@ -136,7 +136,7 @@ h2::after {
 
 .check {
     background: url("image/check.png") no-repeat 2%;
-    padding-left: 10%;
+    padding-left: 40px;
 }
 
 .container_fun {
